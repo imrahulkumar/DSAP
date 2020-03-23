@@ -2,10 +2,10 @@
 Problem 3) Generate all the strings of n bits. Assume A[0..n – 1] is an array of size n.
 */
 
-var Arr = [];
+var A = [];
 function generate(n){
     if(n<1)
-    console.log(Arr);
+    console.log(A);
     else
     {
         A[n-1] = 0;
